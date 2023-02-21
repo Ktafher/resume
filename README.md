@@ -2,4 +2,4 @@
 
 ## Результат вы можете посмотреть тут 
 
-[Моя первая работа](https://github.com/Ktafher/resume)
+[Моя первая работа]((https://ktafher.github.io/resume/)
