@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="font2.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Это сайт начинающего верстальщика">
+    <meta name="keywords" content="Gusev Misha, cv, resume">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+    
     <title>Resume</title>
 </head>
 <body>
+   <div class="container">
+    <div class="info">   
+    <img  class="avatar" src="avatar.jpg" alt="ava"  >
+     
+    <div class="info-text">
     <h1> Гусев Миша</h1>
-    <img src="avatar.jpg" alt="ava" width="150">
+
     <p>  <strong>Когда то очень любил бегать, заниматсья ОФП и кататься на лыжах</strong> <br></p>
-<p> <em>Сейчас большую часть времени провожу за ПК узучая разные проги,а также смотрю сериалы и иногда играю ...</em></p>
-<p><b>Список социальных сетей:</b></p>
-<a target="_blank"  href="https://vk.com/id82882620">Instagram</a>
-|
-<a target="_blank"  href="https://t.me/ktafher">Telegram</a>
-|
-<a target="_blank" href="https://www.youtube.com/channel/UCkA24DgN6M4JnqPO6aFECLg">Youtube</a>
-<div ><h1 >Мои хобби<h1></h1>
-    <ol >
+<p> <em>Сейчас большую часть времени <br>провожу за ПК узучая разные <br>проги,а также смотрю сериалы и иногда играю ...</em></p>
+    </div>
+</div>    
+ 
+<div class="card bg-green">
+    <div >Мои хобби<h1></h1>
+    <ol class="list">
         <span class="ol">
 <li>Путешествия</li>
 <li>Просмотр разнообразного контента</li>
@@ -29,14 +34,17 @@
 <li>Просмотр сериалов</li><br>
         </span >
     </ol>
+</div>
+
+<div class="card bg-red">
     <h2>Опыт работы </h2>
-    <table width="370">
+    <table class="table" width="370">
         <thead>
-        <tr>
+        <!-- <tr>
             <th class="table">Название</th>
             <th class="table">Должность</th>
             <th class="table">Год</th>
-        </tr>
+        </tr> -->
     </thead>
     <tbody>
         <tr>
@@ -81,10 +89,53 @@
     </table>
 </div>
 
+<br>
+
+<div class="card bg-yellow">
+<ul class="link-list">
+    <li  class="list2"><a target="_blank" href="https://vk.com">Смотреть куда смеяться</a> </li>
+    
+    <li class="list2"><a target="_blank" href="https://vk.com">Смотреть куда смеяться</a></li>
+    
+</ul>
+
+<p><b>Список социальных сетей:</b></p>
+<a target="_blank"  href="https://vk.com/id82882620">Instagram</a>
+  
+<a target="_blank"  href="https://t.me/ktafher">Telegram</a>
+  
+<a target="_blank" href="https://www.youtube.com/channel/UCkA24DgN6M4JnqPO6aFECLg">Youtube</a>
+</div>
+
+
+<form action="/" class="form">
+    <h2> Связаться со мной</h2>
+
+    <div class="form-row">
+     <div class="form-group">
+          <label for="name">Ваше Имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+     </div>
+
+     <div class="form-group">
+         <label for="email">Ваш email:</label>
+         <input type="email" id="email" placeholder="Введите ваш email">
+     </div>
+    </div>
+     <div class="form-group">
+         <label for="message">
+          Ваще сообщение
+         </label>
+     
+
+     
+         <textarea name="message" id="" cols="30" rows="10"></textarea>
+         
+    </div>
+    <input class="btn" type="submit" value="Отправить">
+</form>
+
 </body>
 </html>
  <style>
 
-
-
- 
