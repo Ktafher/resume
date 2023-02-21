@@ -75,15 +75,15 @@ a:visited {
 }
 
 .bg-yellow {
-  background: #fdf7d6;
+  background: rgb(253, 247, 214);
 }
 
 .bg-red {
-  background: #fadfdc;
+  background: rgb(250, 223, 220);
 }
 
 .bg-green {
-  background: #e5ffe4;
+  background: rgb(229, 254, 228);
 }
 
 .btn {
